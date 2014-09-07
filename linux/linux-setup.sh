@@ -18,7 +18,11 @@ sudo apt-get install texlive-latex-extra
 # Install java
 sudo apt-get install openjdk-7-jdk
 
-wget -P/home/Downloads https://launchpad.net/ubuntu-tweak/0.8.x/0.8.7/+download/ubuntu-tweak_0.8.7-1~trusty2_all.deb
+wget -P~/Downloads https://launchpad.net/ubuntu-tweak/0.8.x/0.8.7/+download/ubuntu-tweak_0.8.7-1~trusty2_all.deb
+cd Downloads
+sudo dpkg -i ubuntu-tweak_0.8.7-1~trusty2_all.deb
+sudo apt-get install -f
+ls ..
 
 # Manual installations
 echo "Install these manually"
