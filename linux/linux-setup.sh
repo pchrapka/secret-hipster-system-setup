@@ -16,7 +16,7 @@ sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
 sudo apt-get install git-core
 
 # Install latex
-sudo apt-get install texlive-latex-extra
+sudo apt-get install texlive-latex-extra texinfo autoconf
 
 # Install java
 sudo apt-get install openjdk-7-jdk
