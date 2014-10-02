@@ -16,7 +16,7 @@ sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
 sudo apt-get install git-core
 
 # Install latex
-sudo apt-get install texlive-latex-extra texinfo autoconf
+sudo apt-get install texlive-latex-extra texinfo autoconf latexmk texlive-publishers
 
 # Install java
 sudo apt-get install openjdk-7-jdk
@@ -36,10 +36,17 @@ sudo add-apt-repository ppa:thefanclub/ubuntu-after-install
 sudo apt-get update
 sudo apt-get install ubuntu-after-install
 
+# Install zotero
+# Source: https://github.com/smathot/zotero_installer
+sudo add-apt-repository ppa:smathot/cogscinl
+sudo apt-get update
+sudo apt-get install zotero-standalone
+
 # Manual installations
 echo "Install these manually"
 echo "  Anaconda 3.4"
 echo "  SmartGit"
+echo "  Matlab"
 
 echo "Further instructions"
 echo "	ubuntu-after-install"
