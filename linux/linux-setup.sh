@@ -45,7 +45,7 @@ sudo apt-get install zotero-standalone
 # Install NoMachine
 CUR_DIR=$pwd
 cd /usr
-wget http://download.nomachine.com/download/4.3/Linux/nomachine_4.3.30_1_x86_64.tar.gz
+sudo wget http://download.nomachine.com/download/4.3/Linux/nomachine_4.3.30_1_x86_64.tar.gz
 sudo tar zxvf nomachine_4.3.30_1_x86_64.tar.gz
 sudo /usr/NX/nxserver --install
 sudo rm -f nomachine_4.3.30_1_x86_64.tar.gz
