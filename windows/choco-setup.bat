@@ -5,7 +5,7 @@ rem Must be run as Admin
 rem Dev
 choco install wget
 choco install curl
-rem choco install git.install
+rem choco install git
 choco install expresso
 choco install imagemagick
 
