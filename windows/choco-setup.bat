@@ -10,7 +10,7 @@ choco install expresso
 choco install imagemagick
 
 rem Apps
-choco install chrome
+choco install google-chrome-x64
 rem issue with chrome double check
 choco install lastpass
 choco install javaruntime
