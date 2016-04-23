@@ -60,7 +60,3 @@ echo "  Anaconda 3.4"
 echo "  SmartGit"
 echo "  Matlab"
 echo "  NoMachine Enterprise Client for Linux - x86_64"
-
-echo "Further instructions"
-echo "	ubuntu-after-install"
-echo "		Open ubuntu-after-install and select programs to install"
