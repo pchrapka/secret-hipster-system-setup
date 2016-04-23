@@ -56,7 +56,7 @@ sudo apt-get install redshift redshift-gtk
 
 # Manual installations
 echo "Install these manually"
-echo "  Anaconda 3.4"
+echo "  Anaconda"
 echo "  SmartGit"
 echo "  Matlab"
 echo "  NoMachine Enterprise Client for Linux - x86_64"
